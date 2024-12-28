@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book Haven Bookstore - Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Book Haven Bookstore Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT: GALLERY -->
+  <main>
+    <section class="gallery-intro">
+      <h1>Explore Our Collections</h1>
+      <p>Browse our curated selection of books, magazines, and supplies.</p>
+    </section>
+
+    <!-- PRODUCT GALLERY -->
+    <section class="product-gallery">
+
+      <!-- 1. Book: Brie Mine 4Ever -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Book1.png" 
+          alt="Brie Mine 4Ever, a book for cheese lovers" />
+        <p class="product-title">Brie Mine 4Ever</p>
+        <p>A book for cheese lovers</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 2. Book: Glory Riders -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Book2.png" 
+          alt="Glory Riders, a book about bikers" />
+        <p class="product-title">Glory Riders</p>
+        <p>A book about bikers</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 3. Book: Sorcerer's Shadowed Chronicles -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Book3.png"
+          alt="Sorcerer's Shadowed Chronicles, a fantasy book" />
+        <p class="product-title">Sorcerer’s Shadowed Chronicles</p>
+        <p>A fantasy book</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 4. Magazine: Ball -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Magazine1.png"
+          alt="Ball, a magazine about pickleball" />
+        <p class="product-title">Ball</p>
+        <p>A magazine about pickleball</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 5. Magazine: Travel -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Magazine2.png"
+          alt="Travel, a magazine for travelers" />
+        <p class="product-title">Travel</p>
+        <p>A magazine for travelers</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 6. Magazine: Eat. -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Magazine3.png"
+          alt="Eat., a magazine for foodies" />
+        <p class="product-title">Eat.</p>
+        <p>A magazine for foodies</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 7. Tote Bag -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_ToteBag.png"
+          alt="Canvas Tote Bag reading ALL I DO IS READ READ READ" />
+        <p class="product-title">Canvas Tote Bag</p>
+        <p>ALL I DO IS READ READ READ</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 8. Notebook -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Notebook.png"
+          alt="A notebook labeled Book Haven Bookstore" />
+        <p class="product-title">Book Haven Notebook</p>
+        <p>A notebook for everyday use</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- 9. Stickers -->
+      <div class="product-item">
+        <img 
+          src="images/Client3_Stickers.png"
+          alt="A set of four Book Haven Bookstore stickers that promote reading" />
+        <p class="product-title">Stickers (Set of 4)</p>
+        <p>Promoting reading & local bookstores</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+    </section>
+
+    <!-- CART BUTTONS -->
+    <section class="cart-section">
+      <button id="viewCartBtn">View Cart</button>
+      <button id="processOrderBtn">Process Order</button>
+      <button id="clearCartBtn">Clear Cart</button>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 Book Haven Bookstore</p>
+      <button id="subscribeBtn">Subscribe</button>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON & LOADING SPINNER (Optional) -->
+  <button id="backToTopBtn">Top</button>
+  <div id="loadingSpinner"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
